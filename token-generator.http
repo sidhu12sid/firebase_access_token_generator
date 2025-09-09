@@ -1,0 +1,6 @@
+@token_generator_HostAddress = http://localhost:5203
+
+GET {{token_generator_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
