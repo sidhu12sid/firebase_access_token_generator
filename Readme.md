@@ -4,10 +4,12 @@ This is a simple dotnet minimal api for getting the access token for sending the
 All you have to do is to psas the service account json. In return you will get the accesstoken.
 
 # CURL TO THE ACCESS TOKEN API
+
 `curl -X POST https://localhost:44351/get-token \
   -H "Content-Type: application/json" \
   -d @serviceAccount.json
 `
+
 You can pass the service account json and get the accesstoken
 
 - Then you can pass the accesstoken in the FCM Api to send the requests
